@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class WeixinController {
 	
 	public static final String TOKEN = "hao_weixin_token";
+	//测试修改
 
 	@RequestMapping(value="/wget",method=RequestMethod.GET)
 	public void init(HttpServletRequest req,HttpServletResponse resp) throws IOException {
